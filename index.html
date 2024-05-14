@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typewriter.css">
+    <link rel="stylesheet" href="projectcard.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="foot.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<body>
+
+    <header>
+        <h1>Shivang's Portfolio</h1>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="#third">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <img src="assets/mount2.png" class="mount2">
+        <img src="assets/mount1.png" class="mount1">
+        <img src="assets/bush2.png" class="bush2">
+
+        <h1 class="title">My Portfolio</h1>
+
+        <img src="assets/bush1.png" class="bush1">
+        <img src="assets/leaf2.png" class="leaf2">
+        <img src="assets/leaf1.png" class="leaf1">
+    </section>
+
+    <section class="about">
+        <br>
+        <div class="typewriter">
+            <h2>Hi, My name is </h2><span class="typewriter">Shivang</span>
+            <div class="type">and I am a passionate</div>
+            <span id="element" class="typewriter"></span>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['Web Developer', 'Web Designer','Sketch Artist.'],
+                    typeSpeed: 350,
+                });
+            </script>
+        </div>
+        <br><br><br>
+        <section id="third" data-aos="fade-down">
+            <h1><center>My Projects</center></h1>
+            <div class="pro">
+                <div class="projects">
+                    <img src="assets/tic-tac-toe.webp" class="p" data-aos="flip-left">
+                    <img src="assets/weather.png" class="p" data-aos="flip-left">
+                    <img src="assets/netflix.jpg" class="p" data-aos="flip-left">
+                </div>
+            </div>
+        </section>
+        <section class="second" data-aos="fade-down">
+            <div class="skillhead">
+                <h2>Skills</h2>
+            </div>
+            <div class="ski">
+                
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skititle"><center>HTML</center></div>
+                        <div class="skicon">
+                            <div class="outcircle">
+                                <div class="incircle">
+                                    <div class="cirnum">90%</div>
+                                </div>
+                            </div>
+                            <svg width="160px" height="160px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <LinearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#DA22FF"></stop>
+                                    <stop offset="100%" stop-color="#9733EE"></stop>
+                                </LinearGradient>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="c3" />
+                            </svg> 
+                        </div>
+                    </div>
+                    <div class="skill">
+                        
+                        <div class="skititle"><center>css</center></div>
+                        <div class="skicon">
+                            <div class="outcircle">
+                                <div class="incircle">
+                                    <div class="cirnum">80%</div>
+                                </div>
+                            </div>
+                            <svg width="160px" height="160px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <LinearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#DA22FF"></stop>
+                                    <stop offset="100%" stop-color="#9733EE"></stop>
+                                </LinearGradient>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="c1" />
+                            </svg> 
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skititle"><center>Javascript</center></div>
+                        <div class="skicon">
+                            <div class="outcircle">
+                                <div class="incircle">
+                                    <div class="cirnum">70%</div>
+                                </div>
+                            </div>
+                            <svg width="160px" height="160px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <LinearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#DA22FF"></stop>
+                                    <stop offset="100%" stop-color="#9733EE"></stop>
+                                </LinearGradient>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="c2" />
+                            </svg> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 180,
+        duration:500,
+      });
+    </script>
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shivang's developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;www.shivangsportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>

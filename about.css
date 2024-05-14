@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+    width: 100%;
+}
+header h1 {
+    font-size: 40px;
+    color: white;
+}
+header nav {
+    display: flex;
+    gap: 30px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: white;
+}
+header nav a.active {
+    background: #000000;
+}
+header nav a:hover {
+    background: #000000;
+}
+header nav:hover > a:not(:hover) {
+    background: none;
+}body{
+    
+    background:  linear-gradient(to right top, rgb(33, 33, 79) 60%, #3B3291);
+}
+main{
+    margin: 20px;
+}
+.name h1{
+    font-size: 25px;
+    color: #00b2da;
+}
+
+.con{
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.left{
+    
+    color: white;
+    width: 40vw;
+}
+.right{
+    width: 40vw;
+    color: white;
+}
+.division{
+    height: 1px;
+    width: 40vw;
+    color: white;
+    align-self: center;
+    margin-top: 170px;
+    margin-top: 170px;
+}
+.interests{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.inter{
+    width: 70vw;
+    font-size: 20px;
+}
+.drawings{
+    height: 700px;
+    overflow-x: scroll;
+    background-color: rgb(24, 24, 57);
+    margin-top: 50px;
+    padding: 10px;
+}
+.draw{
+    height: 300px;
+    margin: 5px;
+}

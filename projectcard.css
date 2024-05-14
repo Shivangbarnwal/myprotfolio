@@ -1,0 +1,27 @@
+#third{
+    margin: 40px;
+    
+}
+#third h1{
+    font-size: 3rem;
+    color: white;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.p{
+    width: 250px;
+    background-color: rgb(225, 223, 223);
+    border-radius: 10px;
+}

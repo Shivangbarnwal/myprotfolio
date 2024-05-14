@@ -1,0 +1,21 @@
+footer{
+    background-color: #0e0e1a;
+    position: relative;
+    color: gray;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+    width: 223px;
+}
+.footer-rights{
+    text-align: center;
+    
+    padding: 12px;
+}
